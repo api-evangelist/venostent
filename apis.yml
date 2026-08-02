@@ -1,8 +1,28 @@
 aid: venostent
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/venostent.png
 name: Venostent
-description: 'Venostent is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'VenoStent is a clinical-stage medical device company based in Houston,
+  Texas, developing SelfWrap, a bioabsorbable perivascular wrap designed to reduce
+  arteriovenous (AV) access-site failures in chronic kidney disease patients requiring
+  hemodialysis. The company combines biomedical engineering, materials science, and
+  medical 3D printing to improve the maturation and durability of dialysis access,
+  where an estimated 50-60% of access sites fail within the first year. SelfWrap holds
+  FDA Breakthrough Device Designation (2022) and is being evaluated in a 200-subject
+  US clinical trial. VenoStent is backed by Norwest Venture Partners, IAG Capital,
+  and Y Combinator, with additional support from the NSF and NIH. This is a medical
+  device / healthcare company with no public API or developer surface; profiled in
+  the API Evangelist network for portfolio and market context.'
 url: https://raw.githubusercontent.com/api-evangelist/venostent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Medical Devices
+- MedTech
+- Healthcare
+- Dialysis
+- Vascular Access
+- Nephrology
+- Bioabsorbable Implants
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,21 @@ maintainers:
 common:
 - type: Website
   url: https://venostent.com
+- type: About
+  url: https://venostent.com/company
+- type: Blog
+  url: https://venostent.com/press
+  name: News & Press
+- type: Support
+  url: mailto:info@venostent.com
+  name: Contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/venostent
+- type: DomainSecurity
+  url: security/venostent-domain-security.yml
+  name: Domain Security (TLS/HSTS/DNS)
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
