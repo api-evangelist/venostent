@@ -35,6 +35,9 @@ description: 'VenoStent is a clinical-stage medical device company based in Hous
   device / healthcare company with no public API or developer surface; profiled in
   the API Evangelist network for portfolio and market context.'
 url: https://raw.githubusercontent.com/api-evangelist/venostent/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This is a medical device / healthcare company with no public API or developer surface; profiled in the API Evangelist network for portfolio and market context."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
